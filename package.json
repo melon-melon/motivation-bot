@@ -1,0 +1,21 @@
+{
+  "name": "motivational-bot",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "discord.js": "^13.0.0-dev.5e70694.1626955541",
+    "eris": "^0.15.1",
+    "node-fetch": "^2.6.1",
+    "slash-create": "^3.3.0"
+  },
+  "devDependencies": {
+    "dotenv": "^10.0.0"
+  }
+}

@@ -14,7 +14,7 @@ module.exports = class MotivationCommand extends SlashCommand {
 
   async run (ctx) {
     const data = await fetch('https://hopeful-hopper-87cfe8.netlify.app/api/get-daily-quote')
-    const quote = data.json()
+    const quote = await data.json()
 
     return quote.author ? `> ${quote.text}\n- ${quote.author}` : `> ${quote.text}`
   }

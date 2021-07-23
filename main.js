@@ -1,7 +1,7 @@
+require('dotenv').config();
 const { SlashCreator, GatewayServer } = require('slash-create');
 const Eris = require('eris')
 const path = require('path');
-require('dotenv').config();
 
 const client = new Eris(process.env.TOKEN);
 const creator = new SlashCreator({

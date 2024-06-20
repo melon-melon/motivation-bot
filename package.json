@@ -12,7 +12,7 @@
   "dependencies": {
     "@discordjs/builders": "^0.6.0",
     "discord.js": "^13.6.0",
-    "node-fetch": "^3.2.0"
+    "node-fetch": "^3.2.10"
   },
   "devDependencies": {
     "@discordjs/rest": "0.1.0-canary.0",
